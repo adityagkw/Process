@@ -1,0 +1,13 @@
+start:
+output("Hello World!!!")
+call("middle")
+
+end:
+output("End")
+jmp("exit")
+
+middle:
+output("Middle")
+ret()
+
+exit:
